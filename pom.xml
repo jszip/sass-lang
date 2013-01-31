@@ -34,7 +34,7 @@
   <artifactId>sass-lang</artifactId>
   <version>3.2.5-SNAPSHOT</version>
 
-  <name>SASS Gems - Gem in a Jar for SASS</name>
+  <name>Syntactically Awesome Stylesheets</name>
   <description>
     Sass makes CSS fun again. Sass is an extension of CSS3, adding nested rules, variables, mixins, selector
     inheritance, and more. It's translated to well-formatted, standard CSS using the command line tool or a
@@ -43,7 +43,7 @@
     follows the sass-lang.gem versions located http://rubyforge.org/frs/?group_id=9702. Simply change
     the version of this package to download and repackage the same GEM version.
   </description>
-  <url>https://github.com/jszip/sass-lang</url>
+  <url>https://github.com/jszip/gems/sass-lang</url>
   <inceptionYear>2012</inceptionYear>
   <licenses>
     <license>
@@ -75,6 +75,12 @@
     <system>github</system>
     <url>https://github.com/jszip/sass-lang/issues</url>
   </issueManagement>
+  <distributionManagement>
+    <site>
+      <id>github.com</id>
+      <url>gitsite:git@github.com/jszip/jszip.github.com.git/gems/sass-lang</url>
+    </site>
+  </distributionManagement>
 
   <properties>
     <jruby-version>1.6.8</jruby-version>

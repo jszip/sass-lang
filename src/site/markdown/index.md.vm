@@ -1,0 +1,13 @@
+Sass-lang
+================================
+
+This is the [sass-lang](http://sass-lang.com) [gem file](http://rubyforge.org/frs/?group_id=9702)
+repackaged as a JAR file for use as a Maven dependency with [JRuby](http://jruby.org).
+
+To use this module in your projects just add the following dependency:
+
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>${project.artifactId}</artifactId>
+      <version>${project.version}</version>
+    </dependency>
