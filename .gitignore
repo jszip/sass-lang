@@ -6,8 +6,3 @@
 *.iws
 .idea/
 target/
-bin/
-cache/
-doc/
-gems/
-specifications/
