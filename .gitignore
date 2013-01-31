@@ -1,6 +1,13 @@
+.project
+.classpath
+.settings
+*.iml
+*.ipr
+*.iws
+.idea/
+target/
 bin/
 cache/
+doc/
 gems/
 specifications/
-target/
-
