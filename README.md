@@ -1,18 +1,30 @@
-SASS-GEMS
+Sass-lang
+==================
 
+What is it?
+-----------
 
-This is a Maven based Gems to JAR repackaging project for sass-lang.com gem files. This project uses part of the
-technique posted by Nick Sieger back in 2009 but packaged into a Maven build. 
+An Apache Maven based Gem to JAR repackaging of the [Sass gem file](http://sass-lang.com). 
 
-The goal is to store versions of sass-gem.jar in the central Maven repository for Java projects to use without having
-to go through all the hoops of downloading the JAR and repackaging internally.
+The original work was by [Dmitry Erman](https://github.com/dmitrye/sass-gems) and used part of the 
+[technique posted by Nick Sieger](http://blog.nicksieger.com/articles/2009/01/10/jruby-1-1-6-gems-in-a-jar) 
+but [packaged into a Maven build](http://pastebin.com/KPeZ8mpG).
 
+The goal is to make the sass-lang gem available as a jar in the central Maven repository. 
 
-REFERENCES:
+The primary driver for these releases is the needs of the 
+[jszip-maven-plugin](http://jszip.org/jszip-maven-plugin) 
 
-The following is a list of references that inspired or helped make this project possible:
+Documentation
+-------------
 
-Nick Siegler's blog post: http://blog.nicksieger.com/articles/2009/01/10/jruby-1-1-6-gems-in-a-jar
-Pastebin.com example of installing a Gem from jruby-rake-plugin: http://pastebin.com/KPeZ8mpG
+The plugin documentation can be found at http://jszip.org/sass-lang
 
+Licensing
+---------
 
+Please see the file called LICENSE.txt
+
+Trademarks
+----------
+Apache, Apache Maven, Maven and the Apache feather logo are trademarks of The Apache Software Foundation.
