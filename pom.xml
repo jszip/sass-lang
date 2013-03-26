@@ -31,7 +31,7 @@
 
   <groupId>org.jszip.gems</groupId>
   <artifactId>sass-lang</artifactId>
-  <version>3.2.7</version>
+  <version>3.2.8-SNAPSHOT</version>
 
   <name>Syntactically Awesome Stylesheets</name>
   <description>
@@ -69,7 +69,7 @@
     <url>https://github.com/jszip/sass-lang</url>
     <developerConnection>scm:git:git@github.com:jszip/sass-lang.git</developerConnection>
     <connection>scm:git:git@github.com:jszip/sass-lang.git</connection>
-    <tag>sass-lang-3.2.7</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>github</system>
